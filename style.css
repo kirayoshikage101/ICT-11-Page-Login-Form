@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.h1tag {
+    position: relative;
+    top: 50px;
+    color: #FF8080;
+    font-family: 'Exo 2', sans-serif;
+}
+
+form .container {
+    padding: 70px 60px;
+    margin: 80px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: antiquewhite;
+    position: absolute;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    color: #053B50;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.btn_container {
+    margin: 0;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(40%);
+    transform: translateY(40%);
+}
+
+.btn {
+    padding: 10px 20px 10px;
+    margin: 20px;
+    border: 5px;
+    background-color: burlywood;
+    color: #053B50
+}
+
+@media only screen and (max-width: 600px) {
+
+    .h1tag {
+        position: relative;
+        top: 10px;
+        color: #FF8080;
+        font-family: 'Exo 2', sans-serif;
+    }
+
+    form .container {
+        padding: 50px 25px;
+        margin: 20px;
+        border-radius: 20px;
+        align-items: center;
+        background-color: antiquewhite;
+        position: absolute;
+    }
+    
+    label {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Exo 2', sans-serif;
+        color: #053B50;
+    }
+    
+    input {
+        border: none;
+        padding: 10px;
+        margin: 15px;
+        border-radius: 15px;
+        font-size: 20px;
+        font-family: 'Exo 2', sans-serif;
+    }
+    
+    .btn_container {
+        margin: 0;
+        align-items: center;
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(40%);
+        transform: translateY(40%);
+    }
+    
+    .btn {
+        padding: 10px 20px 10px;
+        margin: 20px;
+        border: 5px;
+        background-color: burlywood;
+        color: #053B50
+    }
+
+    .btn:hover {
+        background-color: #F1B4BB;
+    }
+}
+  
+/* ALl rights reserved 2023 || Mandie M. Limbaga || ICT 11-PAGE*/
